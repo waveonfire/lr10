@@ -1,7 +1,7 @@
 
 let reels = document.querySelectorAll('.reel img'); 
 const spinButton = document.getElementById('spinButton'); 
-const emojis = ["images/cherries.png", "images/watermelon.png", "images/lemon.png"];
+const emojis = ["cherries.png", "watermelon.png", "lemon.png"];
 
 function spinReels() {
     result.textContent = ''; 
